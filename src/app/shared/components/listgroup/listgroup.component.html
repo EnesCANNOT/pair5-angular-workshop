@@ -1,0 +1,5 @@
+<ul *ngFor="let item of items" class="list-group {{ flush }} {{ horizontal }}">
+  <li class="list-group-item {{ item.status }} list-group-item-{{ item.variant }}">
+    {{ item.text }}
+  </li>
+</ul>
